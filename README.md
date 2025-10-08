@@ -12,9 +12,8 @@ A browser version of a sketchpad and a Etch-A-Sketch
 
 ```
 
-## Usage
+## Screenshots Of Game:
 
-Screenshots of game:
 ![image](https://github.com/Haiderrjan/etch-a-sketch/blob/89ffa00a3061cd0c312a8c6d14a01036aeb9b52a/assets/etech-a-sketch-screenshot-one.png)
 
 ![image](https://github.com/Haiderrjan/etch-a-sketch/blob/89ffa00a3061cd0c312a8c6d14a01036aeb9b52a/assets/etch-a-sketch-two.png)
