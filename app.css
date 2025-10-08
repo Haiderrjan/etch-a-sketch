@@ -7,25 +7,50 @@
 body{
     
     display: flex;
-    flex-direction: column;
+
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* border: 5px solid yellow; */
+    margin-top: 75px;
 
 
 }
 
 
+.big {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.big .left {
+    width: 25%;
+}
+
+.big .right {
+    width: 75%;
+}
+
+
+
+
 .container {
     width: 600px;
     height: 600px;
-    border: 1px solid red;
-
+    border: 5px solid #737373;
+    border-radius: 5px;
+    box-shadow: 0px 4px 28px -1px rgba(0,0,0,0.47);
     /* new added */
     display: flex;
     justify-content: center;
     align-content: stretch;
     flex-direction: column;
+    background-color: white;
 }
 
 
@@ -34,6 +59,7 @@ body{
     display: flex;
     border-bottom: 1px solid black; 
     flex-grow: 1;
+    /* border-radius: 20px; */
   
 
    
@@ -46,7 +72,135 @@ body{
     /* padding: 1rem 0; */
     flex-grow: 1;
     border-right: 1px solid black;
-   
+     border-radius: 1px;
      
 }
 
+
+.outer {
+
+    width: 1300px;
+    height: 930px;
+    /* border: 5px solid green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: rgb(170, 56, 22);
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.84);
+    position: relative;
+    /* margin: 0 100px; */
+}
+
+
+.outer .title {
+
+    margin: 50px 0px 50px 0px;
+}
+
+
+
+.title {
+    font-family: "Butterfly Kids", sans-serif;
+    font-size: 80px;
+    /* color: #D99A4E; */
+     font-size: 60px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #FFD700, #FFA500, #FFD700, #FFF8DC);
+      background-size: 200% auto;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s linear infinite;
+      text-shadow: 1px 1px 2px #b8860b;
+}
+
+
+
+
+.starting {
+    padding-right: 40px;
+}
+
+.ending {
+    padding-left: 40px;
+}
+
+
+.btn-reset {
+     border-radius: 50%;
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     bottom: 10px;
+     left: 25px;
+     font-size: 100px;
+     text-align: center;
+     font-family: "Butterfly Kids", sans-serif;
+     box-shadow: 0px -1px 25px -1px rgba(0,0,0,0.79);
+     border: 1px solid white;
+
+}
+
+
+.btn-2 {
+     border-radius: 50%;
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     bottom: 10px;
+     right: 25px;
+     font-size: 80px;
+      box-shadow: 0px -1px 25px -1px rgba(0,0,0,0.79);
+     border: 1px solid white;
+     font-family: "Butterfly Kids", sans-serif;
+}
+
+.sizing {
+    margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #E6E6E6;
+  border-radius: 4px;
+}
+
+.sizing label {
+    margin-left: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.sizing select {
+     font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 16px 64px 16px 20px;
+  border: none;
+  background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  appearance: none;
+}
+
+
+.sizing select:active .sizing select:focus {
+     outline: none;
+  box-shadow: none;
+}
+
+.sizing::after {
+    content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}

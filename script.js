@@ -1,5 +1,6 @@
 const grid_Size = document.querySelector("#size");
 const btn = document.querySelector("#reset")
+const outer = document.querySelector("#outer");
 
 
 
@@ -12,7 +13,8 @@ const column = document.createElement("div")
 
 const container = document.createElement("div");
 container.classList.add("container");
-document.body.appendChild(container)
+outer.appendChild(container)
+// document.body.appendChild(container)
 
 
 
@@ -29,7 +31,7 @@ for (let i = 0; i < 8; i++){
 
         column.addEventListener("mouseenter", (event) => {
 
-column.style.backgroundColor = "red"
+column.style.backgroundColor = "grey"
 })
 
     }
@@ -58,7 +60,9 @@ let size = parseInt(this.value)
 
 const container = document.createElement("div");
 container.classList.add("container");
- document.body.appendChild(container)
+outer.appendChild(container)
+
+//  document.body.appendChild(container)
 
 
 for (let i = 0; i < size; i++){
@@ -74,7 +78,7 @@ for (let i = 0; i < size; i++){
 
          column.addEventListener("mouseenter", (event) => {
 
-column.style.backgroundColor = "red"
+column.style.backgroundColor = "#BACBD9"
 
 
 })
