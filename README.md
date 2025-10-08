@@ -16,9 +16,9 @@ A browser version of a sketchpad and a Etch-A-Sketch
 
 Screenshots of game:
 
-![App screenshot] (/assets/etch-a-sketch-screenshot-one.png)
+![etch-a-sketch] (/assets/etch-a-sketch-screenshot-one.png)
 
-![App screenshot] (/assets/etch-a-sketch-two.png)
+![etch-a-sketch] (/assets/etch-a-sketch-two.png)
 
 
 ## Technology used 
