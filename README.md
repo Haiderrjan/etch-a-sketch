@@ -15,10 +15,9 @@ A browser version of a sketchpad and a Etch-A-Sketch
 ## Usage
 
 Screenshots of game:
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/dc73984d-bfef-4f23-866a-eb23c3d40eb7" />
 
- (<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/dc73984d-bfef-4f23-866a-eb23c3d40eb7" />)
-
-(<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/c897c835-4608-4074-9e62-6773837efcff" />)
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/c897c835-4608-4074-9e62-6773837efcff" />
 
 
 ## Technology used 
