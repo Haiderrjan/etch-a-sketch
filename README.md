@@ -1,28 +1,62 @@
+﻿# 📚 Library Project
 
-# Etch-A-Sketch
 
 A browser version of a sketchpad and a Etch-A-Sketch
 
-## Installation
+---
 
-1. clone the repo 
+### 📸 Preview
 
-```bash
-  git clone git@github.com:Haiderrjan/etch-a-sketch.git
+*https://haiderrjan.github.io/etch-a-sketch/*
+
+---
+
+## 🧠 Features
+
+- ➕ **Choose a Size**  from the drop-down
+- ✅ **Can change the colour** via the button the Right  
+- ❌ **Can reset the game** via the button the Left
+
+---
+
+## 🧱 Built With
+
+- **HTML5** — Structure of the page  
+- **CSS3** - Styling 
+- **JavaScript (ES6)** - Event Listner
+
+---
+
+## ⚙️ How It Works
+
+1. Click **the dropdown list to choose option of size New Book** 
+2. Hover over the grey squares to change the colours
+3. Click **reset** — to reset the square back to grey
+4. Click **change** — to change the colour randomised 
+
+All interactions are handled dynamically using JavaScript (no page reloads).
+
+---
+
+## 📂 Project Structure
 
 ```
+etch-a-sketch/
+│
+├── assets
+├── app.css    # All Styling
+├── index.html # Main Structure
+├── script.js  # JavaScript logic 
+└── README.md  # Project documentation
+```
+---
+### 🏁 How to Run
 
-## Screenshots Of Game:
+1. Clone this repository or download the files.
+2. Open `index.html` in your browser.
+3. Start Sketching :) !
+---
+## 🧑‍💻 Author
 
-![image](https://github.com/Haiderrjan/etch-a-sketch/blob/89ffa00a3061cd0c312a8c6d14a01036aeb9b52a/assets/etech-a-sketch-screenshot-one.png)
-
-![image](https://github.com/Haiderrjan/etch-a-sketch/blob/89ffa00a3061cd0c312a8c6d14a01036aeb9b52a/assets/etch-a-sketch-two.png)
-
-
-## Technology used 
-
-- HTML
-- CSS
-- Javascript
-
-
+Made by **Haider Jan**  
+Following [The Odin Project’s JavaScript Path](https://www.theodinproject.com/paths)
