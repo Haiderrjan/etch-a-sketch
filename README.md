@@ -1,4 +1,4 @@
-﻿# 📚 Library Project
+﻿# 📚 Etch-The-Sketch Project
 
 
 A browser version of a sketchpad and a Etch-A-Sketch
